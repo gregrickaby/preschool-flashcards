@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import Footer from '@/components/Footer'
-import SiteHead from '@/components/SiteHead'
 import Header from '@/components/Header'
+import Link from 'next/link'
+import SiteHead from '@/components/SiteHead'
 
 const HomePage = () => (
   <div className="max-w-3xl p-4 m-auto text-center">

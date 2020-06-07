@@ -1,6 +1,6 @@
-import Slider from 'react-slick'
 import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
+import Slider from 'react-slick'
 import data from '@/data/frywords.json'
 
 const FryWords = () => {
