@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
 import Slider from 'react-slick'
+import config from '@/lib/config'
 import data from '@/data/numbers.json'
 
 const Numbers = () => {
@@ -17,7 +18,7 @@ const Numbers = () => {
   return (
     <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
-        title="Numbers - Kindergarten Flashcards"
+        title={`Numbers - ${config.siteName}`}
         description="Numbers in flashcard form."
       />
       <main>

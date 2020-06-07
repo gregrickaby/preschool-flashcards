@@ -2,6 +2,7 @@ import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
 import Slider from 'react-slick'
 import data from '@/data/colors.json'
+import config from '@/lib/config'
 
 const FryWords = () => {
   const slickSettings = {
@@ -17,7 +18,7 @@ const FryWords = () => {
   return (
     <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
-        title="Colors - Kindergarten Flashcards"
+        title={`Colors - ${config.siteName}`}
         description="Colors in flashcard form."
       />
       <main>

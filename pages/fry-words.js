@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
 import Slider from 'react-slick'
+import config from '@/lib/config'
 import data from '@/data/frywords.json'
 
 const FryWords = () => {
@@ -17,7 +18,7 @@ const FryWords = () => {
   return (
     <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
-        title="Fry Words - Kindergarten Flashcards"
+        title={`Fry Words - ${config.siteName}`}
         description="Fry Words in flashcard form."
       />
       <main>

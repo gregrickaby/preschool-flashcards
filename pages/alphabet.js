@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
 import Slider from 'react-slick'
+import config from '@/lib/config'
 import data from '@/data/alphabet.json'
 
 const Alphabet = () => {
@@ -17,7 +18,7 @@ const Alphabet = () => {
   return (
     <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
-        title="Alphabet - Kindergarten Flashcards"
+        title={`Alphabet - ${config.siteName}`}
         description="The alphabet in flashcard form."
       />
       <main>

@@ -2,6 +2,7 @@ import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
 import Slider from 'react-slick'
 import data from '@/data/shapes.json'
+import config from '@/lib/config'
 
 const FryWords = () => {
   const slickSettings = {
@@ -17,7 +18,7 @@ const FryWords = () => {
   return (
     <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
-        title="Shapes - Kindergarten Flashcards"
+        title={`Shapes - ${config.siteName}`}
         description="Shapes in flashcard form."
       />
       <main>

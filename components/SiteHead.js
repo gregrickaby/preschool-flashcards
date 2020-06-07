@@ -1,4 +1,4 @@
-import Config from '@/lib/config'
+import config from '@/lib/config'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
 
@@ -15,8 +15,8 @@ const SiteHead = (props) => (
 )
 
 SiteHead.defaultProps = {
-  title: Config.siteName,
-  description: Config.siteDescription
+  title: config.siteName,
+  description: config.siteDescription
 }
 
 SiteHead.propTypes = {
