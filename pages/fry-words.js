@@ -15,7 +15,7 @@ const FryWords = () => {
   }
 
   return (
-    <div className="max-w-sm p-4 m-auto text-center">
+    <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
         title="Fry Words - Kindergarten Flashcards"
         description="Fry Words in flashcard form."
@@ -23,7 +23,7 @@ const FryWords = () => {
       <main>
         <Slider {...slickSettings}>
           {data.items.map((item, index) => (
-            <p key={index} className="flashcard flashcard-word">
+            <p key={index} className="flashcard flashcard-word leading-snug">
               {item.word}
             </p>
           ))}

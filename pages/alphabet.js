@@ -15,7 +15,7 @@ const Alphabet = () => {
   }
 
   return (
-    <div className="max-w-xs py-8 m-auto text-center">
+    <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
         title="Alphabet - Kindergarten Flashcards"
         description="The alphabet in flashcard form."
@@ -23,7 +23,7 @@ const Alphabet = () => {
       <main>
         <Slider {...slickSettings}>
           {data.items.map((item, index) => (
-            <p key={index} className="flashcard">
+            <p key={index} className="flashcard leading-none m-0 p-0">
               {item.letter}
             </p>
           ))}

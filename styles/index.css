@@ -8,15 +8,15 @@
 }
 
 .flashcard {
-  @apply leading-none m-0 p-0;
-
   font-size: 200px;
 }
 
 .flashcard-word {
-  @apply leading-snug;
+  font-size: 100px;
+}
 
-  font-size: 75px;
+.flashcard-description {
+  font-size: 60px;
 }
 
 @media (min-width: 600px) {
