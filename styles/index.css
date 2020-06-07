@@ -15,11 +15,12 @@
   font-size: 100px;
 }
 
-.flashcard-shape {
+.flashcard-shape,
+.flashcard-color {
   @apply m-auto;
 
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 .flashcard-description {
