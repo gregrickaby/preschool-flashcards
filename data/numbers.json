@@ -39,6 +39,370 @@
     {
       "number": "10",
       "spelling": "ten"
+    },
+    {
+      "number": "11",
+      "spelling": "eleven"
+    },
+    {
+      "number": "12",
+      "spelling": "twelve"
+    },
+    {
+      "number": "13",
+      "spelling": "thirteen"
+    },
+    {
+      "number": "14",
+      "spelling": "fourteen"
+    },
+    {
+      "number": "15",
+      "spelling": "fifteen"
+    },
+    {
+      "number": "16",
+      "spelling": "sixteen"
+    },
+    {
+      "number": "17",
+      "spelling": "seventeen"
+    },
+    {
+      "number": "18",
+      "spelling": "eighteen"
+    },
+    {
+      "number": "19",
+      "spelling": "nineteen"
+    },
+    {
+      "number": "20",
+      "spelling": "twenty"
+    },
+    {
+      "number": "21",
+      "spelling": "twenty one"
+    },
+    {
+      "number": "22",
+      "spelling": "twenty two"
+    },
+    {
+      "number": "23",
+      "spelling": "twenty three"
+    },
+    {
+      "number": "24",
+      "spelling": "twenty four"
+    },
+    {
+      "number": "25",
+      "spelling": "twenty five"
+    },
+    {
+      "number": "26",
+      "spelling": "twenty six"
+    },
+    {
+      "number": "27",
+      "spelling": "twenty seven"
+    },
+    {
+      "number": "28",
+      "spelling": "twenty eight"
+    },
+    {
+      "number": "29",
+      "spelling": "twenty nine"
+    },
+    {
+      "number": "30",
+      "spelling": "thirty"
+    },
+    {
+      "number": "31",
+      "spelling": "thirty one"
+    },
+    {
+      "number": "32",
+      "spelling": "thirty two"
+    },
+    {
+      "number": "33",
+      "spelling": "thirty three"
+    },
+    {
+      "number": "34",
+      "spelling": "thirty four"
+    },
+    {
+      "number": "35",
+      "spelling": "thirty five"
+    },
+    {
+      "number": "36",
+      "spelling": "thirty six"
+    },
+    {
+      "number": "37",
+      "spelling": "thirty seven"
+    },
+    {
+      "number": "38",
+      "spelling": "thirty eight"
+    },
+    {
+      "number": "39",
+      "spelling": "thirty nine"
+    },
+    {
+      "number": "40",
+      "spelling": "forty"
+    },
+    {
+      "number": "41",
+      "spelling": "forty one"
+    },
+    {
+      "number": "42",
+      "spelling": "forty two"
+    },
+    {
+      "number": "43",
+      "spelling": "forty three"
+    },
+    {
+      "number": "44",
+      "spelling": "forty four"
+    },
+    {
+      "number": "45",
+      "spelling": "forty five"
+    },
+    {
+      "number": "46",
+      "spelling": "forty six"
+    },
+    {
+      "number": "47",
+      "spelling": "forty seven"
+    },
+    {
+      "number": "48",
+      "spelling": "forty eight"
+    },
+    {
+      "number": "49",
+      "spelling": "forty nine"
+    },
+    {
+      "number": "50",
+      "spelling": "fifty"
+    },
+    {
+      "number": "51",
+      "spelling": "fifty one"
+    },
+    {
+      "number": "52",
+      "spelling": "fifty two"
+    },
+    {
+      "number": "53",
+      "spelling": "fifty three"
+    },
+    {
+      "number": "54",
+      "spelling": "fifty four"
+    },
+    {
+      "number": "55",
+      "spelling": "fifty five"
+    },
+    {
+      "number": "56",
+      "spelling": "fifty six"
+    },
+    {
+      "number": "57",
+      "spelling": "fifty seven"
+    },
+    {
+      "number": "58",
+      "spelling": "fifty eight"
+    },
+    {
+      "number": "59",
+      "spelling": "fifty nine"
+    },
+    {
+      "number": "60",
+      "spelling": "sixty"
+    },
+    {
+      "number": "61",
+      "spelling": "sixty one"
+    },
+    {
+      "number": "62",
+      "spelling": "sixty two"
+    },
+    {
+      "number": "63",
+      "spelling": "sixty three"
+    },
+    {
+      "number": "64",
+      "spelling": "sixty four"
+    },
+    {
+      "number": "65",
+      "spelling": "sixty five"
+    },
+    {
+      "number": "66",
+      "spelling": "sixty six"
+    },
+    {
+      "number": "67",
+      "spelling": "sixty seven"
+    },
+    {
+      "number": "68",
+      "spelling": "sixty eight"
+    },
+    {
+      "number": "69",
+      "spelling": "sixty nine"
+    },
+    {
+      "number": "70",
+      "spelling": "seventy "
+    },
+    {
+      "number": "71",
+      "spelling": "seventy one"
+    },
+    {
+      "number": "72",
+      "spelling": "seventy two"
+    },
+    {
+      "number": "73",
+      "spelling": "seventy three"
+    },
+    {
+      "number": "74",
+      "spelling": "seventy four"
+    },
+    {
+      "number": "75",
+      "spelling": "seventy five"
+    },
+    {
+      "number": "76",
+      "spelling": "seventy six"
+    },
+    {
+      "number": "77",
+      "spelling": "seventy seven"
+    },
+    {
+      "number": "78",
+      "spelling": "seventy eight"
+    },
+    {
+      "number": "79",
+      "spelling": "seventy nine"
+    },
+    {
+      "number": "80",
+      "spelling": "eighty "
+    },
+    {
+      "number": "81",
+      "spelling": "eighty one"
+    },
+    {
+      "number": "82",
+      "spelling": "eighty two"
+    },
+    {
+      "number": "83",
+      "spelling": "eighty three"
+    },
+    {
+      "number": "84",
+      "spelling": "eighty four"
+    },
+    {
+      "number": "85",
+      "spelling": "eighty five"
+    },
+    {
+      "number": "86",
+      "spelling": "eighty six"
+    },
+    {
+      "number": "87",
+      "spelling": "eighty seven"
+    },
+    {
+      "number": "88",
+      "spelling": "eighty eight"
+    },
+    {
+      "number": "89",
+      "spelling": "eighty nine"
+    },
+    {
+      "number": "90",
+      "spelling": "ninety"
+    },
+    {
+      "number": "90",
+      "spelling": "ninety"
+    },
+    {
+      "number": "91",
+      "spelling": "ninety one"
+    },
+    {
+      "number": "92",
+      "spelling": "ninety two"
+    },
+    {
+      "number": "93",
+      "spelling": "ninety three"
+    },
+    {
+      "number": "94",
+      "spelling": "ninety four"
+    },
+    {
+      "number": "95",
+      "spelling": "ninety five"
+    },
+    {
+      "number": "96",
+      "spelling": "ninety six"
+    },
+    {
+      "number": "97",
+      "spelling": "ninety seven"
+    },
+    {
+      "number": "98",
+      "spelling": "ninety eight"
+    },
+    {
+      "number": "99",
+      "spelling": "ninety nine"
+    },
+    {
+      "number": "100",
+      "spelling": "one hundred"
     }
   ]
 }
