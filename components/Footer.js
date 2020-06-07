@@ -24,6 +24,16 @@ const Footer = () => (
             </Link>
           </li>
           <li>
+            <Link href="/shapes">
+              <a className="underline">Shapes</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/colors">
+              <a className="underline">Colors</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/fry-words">
               <a className="underline">Fry Words</a>
             </Link>
