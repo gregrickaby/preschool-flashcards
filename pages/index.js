@@ -4,10 +4,10 @@ import Link from 'next/link'
 import SiteHead from '@/components/SiteHead'
 
 const HomePage = () => (
-  <div className="max-w-3xl p-4 m-auto text-center">
+  <div className="max-w-3xl m-auto text-center">
     <SiteHead />
     <Header />
-    <main>
+    <main className="p-4">
       <div className="grid sm:grid-cols-3 gap-6">
         <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/alphabet">
@@ -31,14 +31,13 @@ const HomePage = () => (
         </div>
         <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/fry-words">
-            <a>Words</a>
+            <a>Fry Words</a>
           </Link>
         </div>
       </div>
-      <p className="mt-8">
-        Click a box above (or a link below) to get started. Flashcards will auto
-        start. You can also swipe, click, or use the arrow keys to control the
-        flashcards.
+      <p className="my-12">
+        Click a box above to get started. You can swipe, click, or use the arrow
+        keys to control the flashcards.
       </p>
     </main>
     <Footer />
