@@ -9,11 +9,17 @@
 }
 
 .item-word {
-  font-size: 200px;
+  @apply leading-snug;
+
+  font-size: 100px;
 }
 
 @media (min-width: 600px) {
   .item {
     font-size: 600px;
+  }
+
+  .item-word {
+    font-size: 200px;
   }
 }
