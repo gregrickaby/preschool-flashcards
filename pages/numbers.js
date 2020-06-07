@@ -16,12 +16,12 @@ const Numbers = () => {
     <div className="max-w-3xl p-4 m-auto text-center">
       <SiteHead
         title="Numbers - Kindergarten Flashcards"
-        description="Numbers in flashcard form. Swipe right, or use the left/right arrow keys to navigate between letters."
+        description="Numbers in flashcard form. Swipe right, or use the left/right arrow keys to navigate between numbers."
       />
       <main>
         <Slider {...settings}>
           {data.items.map((item, index) => (
-            <p key={index} className="item item-numbers">
+            <p key={index} className="item">
               {item.number}
             </p>
           ))}

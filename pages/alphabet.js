@@ -21,7 +21,7 @@ const Alphabet = () => {
       <main>
         <Slider {...settings}>
           {data.items.map((item, index) => (
-            <p key={index} className="item item-alphabet">
+            <p key={index} className="item">
               {item.letter}
             </p>
           ))}

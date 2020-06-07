@@ -4,14 +4,16 @@
 
 .item {
   @apply leading-none m-0 p-0;
-}
 
-.item-alphabet {
   font-size: 400px;
 }
 
+.item-word {
+  font-size: 200px;
+}
+
 @media (min-width: 600px) {
-  .item-alphabet {
+  .item {
     font-size: 600px;
   }
 }
