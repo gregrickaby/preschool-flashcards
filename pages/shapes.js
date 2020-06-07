@@ -22,7 +22,9 @@ const FryWords = () => (
                 aria-label={item.name}
               />
             </p>
-            <span className="flashcard-description">{item.name}</span>
+            <span className="flashcard-description leading-tight tracking-tight">
+              {item.name}
+            </span>
           </>
         ))}
       </Slider>

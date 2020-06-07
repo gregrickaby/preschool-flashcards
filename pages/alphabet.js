@@ -13,7 +13,10 @@ const Alphabet = () => (
     <main>
       <Slider {...config.slickSettings}>
         {data.items.map((item, index) => (
-          <p key={index} className="flashcard leading-none m-0 p-0">
+          <p
+            key={index}
+            className="flashcard leading-tight tracking-tight m-0 p-0"
+          >
             {item.letter}
           </p>
         ))}

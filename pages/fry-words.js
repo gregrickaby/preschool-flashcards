@@ -13,7 +13,10 @@ const FryWords = () => (
     <main>
       <Slider {...config.slickSettings}>
         {data.items.map((item, index) => (
-          <p key={index} className="flashcard flashcard-word leading-snug">
+          <p
+            key={index}
+            className="flashcard flashcard-word leading-snug tracking-tight"
+          >
             {item.word}
           </p>
         ))}

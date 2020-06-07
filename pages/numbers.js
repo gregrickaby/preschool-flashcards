@@ -14,10 +14,15 @@ const Numbers = () => (
       <Slider {...config.slickSettings}>
         {data.items.map((item, index) => (
           <>
-            <p key={index} className="flashcard leading-none m-0 p-0">
+            <p
+              key={index}
+              className="flashcard leading-none tracking-tight m-0 p-0"
+            >
               {item.number}
             </p>
-            <span className="flashcard-description">{item.spelling}</span>
+            <span className="flashcard-description leading-tight tracking-tight">
+              {item.spelling}
+            </span>
           </>
         ))}
       </Slider>
