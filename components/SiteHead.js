@@ -1,5 +1,6 @@
-import PropTypes from 'prop-types'
+import Config from '@/lib/config'
 import Head from 'next/head'
+import PropTypes from 'prop-types'
 
 const SiteHead = (props) => (
   <Head>
@@ -14,9 +15,8 @@ const SiteHead = (props) => (
 )
 
 SiteHead.defaultProps = {
-  title: 'Kindergarten Flashcards',
-  description:
-    'The alphabet, numbers shapes, colors, and fry (sight) words in flashcard form.'
+  title: Config.siteName,
+  description: Config.siteDescription
 }
 
 SiteHead.propTypes = {
