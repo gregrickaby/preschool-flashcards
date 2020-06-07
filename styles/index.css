@@ -15,6 +15,13 @@
   font-size: 100px;
 }
 
+.flashcard-shape {
+  @apply m-auto;
+
+  height: 100px;
+  width: 100px;
+}
+
 .flashcard-description {
   font-size: 60px;
 }
