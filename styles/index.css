@@ -2,24 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.item {
-  @apply leading-none m-0 p-0;
-
-  font-size: 400px;
+.slick-prev::before,
+.slick-next::before {
+  @apply hidden;
 }
 
-.item-word {
+.flashcard {
+  @apply leading-none m-0 p-0;
+
+  font-size: 200px;
+}
+
+.flashcard-word {
   @apply leading-snug;
 
-  font-size: 100px;
+  font-size: 75px;
 }
 
 @media (min-width: 600px) {
-  .item {
-    font-size: 600px;
-  }
-
-  .item-word {
-    font-size: 200px;
+  .slick-prev::before,
+  .slick-next::before {
+    @apply block text-black text-3xl;
   }
 }
