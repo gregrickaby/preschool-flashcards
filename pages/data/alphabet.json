@@ -1,0 +1,110 @@
+{
+  "title": "The Alphabet",
+  "description": "Learn the English alphabet.",
+  "items": [
+    {
+      "letter": "A",
+      "lowercase": "a"
+    },
+    {
+      "letter": "B",
+      "lowercase": "b"
+    },
+    {
+      "letter": "C",
+      "lowercase": "c"
+    },
+    {
+      "letter": "D",
+      "lowercase": "d"
+    },
+    {
+      "letter": "E",
+      "lowercase": "e"
+    },
+    {
+      "letter": "F",
+      "lowercase": "f"
+    },
+    {
+      "letter": "G",
+      "lowercase": "g"
+    },
+    {
+      "letter": "H",
+      "lowercase": "h"
+    },
+    {
+      "letter": "I",
+      "lowercase": "i"
+    },
+    {
+      "letter": "J",
+      "lowercase": "j"
+    },
+    {
+      "letter": "K",
+      "lowercase": "k"
+    },
+    {
+      "letter": "L",
+      "lowercase": "l"
+    },
+    {
+      "letter": "M",
+      "lowercase": "m"
+    },
+    {
+      "letter": "N",
+      "lowercase": "n"
+    },
+    {
+      "letter": "O",
+      "lowercase": "o"
+    },
+    {
+      "letter": "P",
+      "lowercase": "p"
+    },
+    {
+      "letter": "Q",
+      "lowercase": "q"
+    },
+    {
+      "letter": "R",
+      "lowercase": "r"
+    },
+    {
+      "letter": "S",
+      "lowercase": "s"
+    },
+    {
+      "letter": "T",
+      "lowercase": "t"
+    },
+    {
+      "letter": "U",
+      "lowercase": "u"
+    },
+    {
+      "letter": "V",
+      "lowercase": "v"
+    },
+    {
+      "letter": "W",
+      "lowercase": "w"
+    },
+    {
+      "letter": "X",
+      "lowercase": "x"
+    },
+    {
+      "letter": "Y",
+      "lowercase": "y"
+    },
+    {
+      "letter": "Z",
+      "lowercase": "z"
+    }
+  ]
+}
