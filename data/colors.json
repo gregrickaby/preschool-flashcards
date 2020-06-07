@@ -5,16 +5,20 @@
       "hex": "#E30022"
     },
     {
-      "name": "green",
-      "hex": "#006B3C"
-    },
-    {
       "name": "blue",
       "hex": "#0000FF"
     },
     {
-      "name": "violet",
+      "name": "green",
+      "hex": "#006B3C"
+    },
+    {
+      "name": "purple",
       "hex": "#8F00FF"
+    },
+    {
+      "name": "pink",
+      "hex": "#ffc0cb"
     },
     {
       "name": "yellow",
@@ -25,16 +29,16 @@
       "hex": "#FFA500"
     },
     {
-      "name": "indigo",
-      "hex": "#4B0082"
-    },
-    {
       "name": "brown",
       "hex": "#964B00"
     },
     {
       "name": "black",
       "hex": "#000000"
+    },
+    {
+      "name": "white",
+      "hex": "#f1f1f1"
     }
   ]
 }
