@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
 import Header from '@/components/Header'
@@ -6,7 +7,25 @@ const HomePage = () => (
   <div className="max-w-3xl p-4 m-auto text-center">
     <SiteHead />
     <Header />
-    <main>Click a link above to get started.</main>
+    <main>
+      <div className="grid grid-cols-3">
+        <div className="border rounded-lg">
+          <Link href="/alphabet">
+            <a>ABCs</a>
+          </Link>
+        </div>
+        <div className="border rounded-lg">
+          <Link href="/numbers">
+            <a>123s</a>
+          </Link>
+        </div>
+        <div className="border rounded-lg">
+          <Link href="/fry-words">
+            <a>Words</a>
+          </Link>
+        </div>
+      </div>
+    </main>
     <Footer />
   </div>
 )
