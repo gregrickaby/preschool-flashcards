@@ -18,6 +18,9 @@ const Alphabet = () => (
             className="flashcard leading-tight tracking-tight m-0 p-0"
           >
             {item.letter}
+            <span className="flashcard-description flashcard-lowercase leading-tight tracking-tight">
+              {item.lowercase}
+            </span>
           </p>
         ))}
       </Slider>
