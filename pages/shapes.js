@@ -16,7 +16,7 @@ const FryWords = () => (
           <>
             <p key={index} className="flashcard">
               <object
-                className=" flashcard-shape"
+                className="flashcard-shape m-auto"
                 type="image/svg+xml"
                 data={`/shapes/${item.file}`}
                 aria-label={item.name}

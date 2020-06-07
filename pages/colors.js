@@ -14,9 +14,9 @@ const FryWords = () => (
       <Slider {...config.slickSettings}>
         {data.items.map((item, index) => (
           <>
-            <div key={index} className="flashcard">
+            <div key={index} className="">
               <div
-                className="flashcard-color"
+                className="flashcard-color m-auto"
                 style={{backgroundColor: item.hex}}
               />
               <span className="flashcard-description leading-tight tracking-tight">

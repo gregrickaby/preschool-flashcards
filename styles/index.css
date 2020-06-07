@@ -21,8 +21,6 @@
 
 .flashcard-shape,
 .flashcard-color {
-  @apply m-auto;
-
   height: 200px;
   width: 200px;
 }
