@@ -4,24 +4,26 @@ import SiteHead from '@/components/SiteHead'
 import data from '@/data/numbers.json'
 
 const Numbers = () => {
-  const settings = {
+  const slickSettings = {
+    autoplay: true,
     dots: false,
     infinite: true,
-    speed: 500,
+    pauseOnFocus: true,
+    slidesToScroll: 1,
     slidesToShow: 1,
-    slidesToScroll: 1
+    speed: 500
   }
 
   return (
-    <div className="max-w-3xl p-4 m-auto text-center">
+    <div className="max-w-xs pt-56 m-auto text-center">
       <SiteHead
         title="Numbers - Kindergarten Flashcards"
-        description="Numbers in flashcard form. Swipe right, or use the left/right arrow keys to navigate between numbers."
+        description="Numbers in flashcard form."
       />
       <main>
-        <Slider {...settings}>
+        <Slider {...slickSettings}>
           {data.items.map((item, index) => (
-            <p key={index} className="item">
+            <p key={index} className="flashcard">
               {item.number}
             </p>
           ))}
