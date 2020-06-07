@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 const Header = () => (
   <header id="header" className="max-w-sm m-auto">
     <h1 className="text-4xl mb-4">Kindergarten Flashcards</h1>
