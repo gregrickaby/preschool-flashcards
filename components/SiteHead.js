@@ -13,7 +13,7 @@ const SiteHead = (props) => (
   </Head>
 )
 
-SiteHead.defeaultProps = {
+SiteHead.defaultProps = {
   title: 'Kindergarten Flashcards',
   description: 'The alphabet, numbers, and fry (sight) words in flashcard form.'
 }
