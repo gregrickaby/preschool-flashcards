@@ -29,6 +29,10 @@
   font-size: 60px;
 }
 
+.flashcard-lowercase {
+  font-size: 100px;
+}
+
 @media (min-width: 600px) {
   .slick-slider {
     overflow: unset;
