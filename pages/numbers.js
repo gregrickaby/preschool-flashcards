@@ -5,7 +5,7 @@ import config from '@/lib/config'
 import data from '@/data/numbers.json'
 
 const Numbers = () => (
-  <div className="max-w-xs pt-32 m-auto text-center">
+  <div className="max-w-xs pt-32 m-auto text-center overflow-hidden">
     <SiteHead
       title={`Numbers - ${config.siteName}`}
       description="Numbers in flashcard form."

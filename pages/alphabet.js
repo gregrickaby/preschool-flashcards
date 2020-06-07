@@ -5,7 +5,7 @@ import config from '@/lib/config'
 import data from '@/data/alphabet.json'
 
 const Alphabet = () => (
-  <div className="max-w-xs pt-32 m-auto text-center">
+  <div className="max-w-xs pt-32 m-auto text-center overflow-hidden">
     <SiteHead
       title={`Alphabet - ${config.siteName}`}
       description="The alphabet in flashcard form."
