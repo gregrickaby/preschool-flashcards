@@ -8,33 +8,38 @@ const HomePage = () => (
     <SiteHead />
     <Header />
     <main>
-      <div className="grid sm:grid-cols-3 gap-8">
-        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+      <div className="grid sm:grid-cols-3 gap-6">
+        <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/alphabet">
             <a>ABCs</a>
           </Link>
         </div>
-        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+        <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/numbers">
             <a>123s</a>
           </Link>
         </div>
-        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+        <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/shapes">
             <a>Shapes</a>
           </Link>
         </div>
-        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+        <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/colors">
             <a>Colors</a>
           </Link>
         </div>
-        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+        <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
           <Link href="/fry-words">
             <a>Words</a>
           </Link>
         </div>
       </div>
+      <p className="mt-8">
+        Click a box above (or a link below) to get started. Flashcards will auto
+        start. You can also swipe, click, or use the arrow keys to control the
+        flashcards.
+      </p>
     </main>
     <Footer />
   </div>

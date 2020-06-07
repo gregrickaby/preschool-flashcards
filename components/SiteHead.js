@@ -15,7 +15,8 @@ const SiteHead = (props) => (
 
 SiteHead.defaultProps = {
   title: 'Kindergarten Flashcards',
-  description: 'The alphabet, numbers, and fry (sight) words in flashcard form.'
+  description:
+    'The alphabet, numbers shapes, colors, and fry (sight) words in flashcard form.'
 }
 
 SiteHead.propTypes = {
