@@ -15,7 +15,7 @@ const Numbers = () => {
   }
 
   return (
-    <div className="max-w-xs pt-56 m-auto text-center">
+    <div className="max-w-xs pt-32 m-auto text-center">
       <SiteHead
         title="Numbers - Kindergarten Flashcards"
         description="Numbers in flashcard form."
@@ -23,9 +23,12 @@ const Numbers = () => {
       <main>
         <Slider {...slickSettings}>
           {data.items.map((item, index) => (
-            <p key={index} className="flashcard">
-              {item.number}
-            </p>
+            <>
+              <p key={index} className="flashcard leading-none m-0 p-0">
+                {item.number}
+              </p>
+              <span className="flashcard-description">{item.spelling}</span>
+            </>
           ))}
         </Slider>
       </main>
