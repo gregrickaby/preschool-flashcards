@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "circle",
+      "file": "circle.svg"
+    },
+    {
+      "name": "square",
+      "file": "square.svg"
+    },
+    {
+      "name": "diamond",
+      "file": "diamond.svg"
+    },
+    {
+      "name": "star",
+      "file": "star.svg"
+    },
+    {
+      "name": "octagon",
+      "file": "octagon.svg"
+    },
+    {
+      "name": "triangle",
+      "file": "triangle.svg"
+    }
+  ]
+}
