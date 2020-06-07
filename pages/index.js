@@ -8,18 +8,28 @@ const HomePage = () => (
     <SiteHead />
     <Header />
     <main>
-      <div className="grid grid-cols-3">
-        <div className="border rounded-lg">
+      <div className="grid sm:grid-cols-3 gap-8">
+        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
           <Link href="/alphabet">
             <a>ABCs</a>
           </Link>
         </div>
-        <div className="border rounded-lg">
+        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
           <Link href="/numbers">
             <a>123s</a>
           </Link>
         </div>
-        <div className="border rounded-lg">
+        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+          <Link href="/shapes">
+            <a>Shapes</a>
+          </Link>
+        </div>
+        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
+          <Link href="/colors">
+            <a>Colors</a>
+          </Link>
+        </div>
+        <div className="border rounded-lg py-12 text-xl text-center hover:bg-gray-300">
           <Link href="/fry-words">
             <a>Words</a>
           </Link>
