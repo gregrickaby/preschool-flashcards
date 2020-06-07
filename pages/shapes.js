@@ -5,7 +5,7 @@ import data from '@/data/shapes.json'
 
 const FryWords = () => {
   const slickSettings = {
-    autoplay: false,
+    autoplay: true,
     dots: false,
     infinite: true,
     pauseOnFocus: true,
