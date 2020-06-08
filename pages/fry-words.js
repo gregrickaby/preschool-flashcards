@@ -12,7 +12,7 @@ import config from '@/lib/config'
 import data from '@/data/frywords.json'
 
 const FryWords = () => (
-  <div className="max-w-xs pt-8 m-auto text-center">
+  <div className="max-w-xs pt-10 m-auto text-center">
     <SiteHead
       title={`Fry Words - ${config.siteName}`}
       description="Fry Words in flashcard form."

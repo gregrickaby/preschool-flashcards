@@ -12,7 +12,7 @@ import data from '@/data/shapes.json'
 import config from '@/lib/config'
 
 const FryWords = () => (
-  <div className="max-w-xs pt8 m-auto text-center">
+  <div className="max-w-xs pt-10 m-auto text-center">
     <SiteHead
       title={`Shapes - ${config.siteName}`}
       description="Shapes in flashcard form."
