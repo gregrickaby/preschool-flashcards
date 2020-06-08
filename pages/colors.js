@@ -12,7 +12,7 @@ import data from '@/data/colors.json'
 import config from '@/lib/config'
 
 const FryWords = () => (
-  <div className="max-w-xs pt-32 m-auto text-center">
+  <div className="max-w-xs pt-8 m-auto text-center">
     <SiteHead
       title={`Colors - ${config.siteName}`}
       description="Colors in flashcard form."
