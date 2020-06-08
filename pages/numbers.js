@@ -23,7 +23,7 @@ const Numbers = () => (
         lockOnWindowScroll={true}
         naturalSlideHeight={200}
         naturalSlideWidth={200}
-        totalSlides={100}
+        totalSlides={101}
         visibleSlides={1}
       >
         <Slider>
