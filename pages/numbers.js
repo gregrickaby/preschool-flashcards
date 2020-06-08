@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import SiteHead from '@/components/SiteHead'
 import {
   CarouselProvider,
@@ -16,6 +17,9 @@ const Numbers = () => (
       title={`Numbers - ${config.siteName}`}
       description="Numbers in flashcard form."
     />
+    <Link href="/">
+      <a className="fixed top-0 left-0 pt-4 pl-4 text-xl">&larr;</a>
+    </Link>
     <main>
       <CarouselProvider
         infinite={true}
