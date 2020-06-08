@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
-import 'slick-carousel/slick/slick-theme.css'
-import 'slick-carousel/slick/slick.css'
+import 'pure-react-carousel/dist/react-carousel.es.css'
 import '@/styles/index.css'
 
 const App = ({Component, pageProps}) => <Component {...pageProps} />

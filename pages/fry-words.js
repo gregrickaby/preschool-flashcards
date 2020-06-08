@@ -1,6 +1,12 @@
-import Footer from '@/components/Footer'
 import SiteHead from '@/components/SiteHead'
-import Slider from 'react-slick'
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonPlay,
+  ButtonBack,
+  ButtonNext
+} from 'pure-react-carousel'
 import config from '@/lib/config'
 import data from '@/data/frywords.json'
 
@@ -11,18 +17,32 @@ const FryWords = () => (
       description="Fry Words in flashcard form."
     />
     <main>
-      <Slider {...config.slickSettings}>
-        {data.items.map((item, index) => (
-          <p
-            key={index}
-            className="flashcard flashcard-word leading-snug tracking-tight"
-          >
-            {item.word}
-          </p>
-        ))}
-      </Slider>
+      <CarouselProvider
+        infinite={true}
+        interval={3000}
+        lockOnWindowScroll={true}
+        naturalSlideHeight={200}
+        naturalSlideWidth={200}
+        totalSlides={100}
+        visibleSlides={1}
+      >
+        <Slider>
+          {data.items.map((item, index) => (
+            <Slide key={index} index={index}>
+              <p
+                key={index}
+                className="flashcard flashcard-word leading-snug tracking-tight"
+              >
+                {item.word}
+              </p>
+            </Slide>
+          ))}
+        </Slider>
+        <ButtonBack className="text-3xl mr-12">&lsaquo;</ButtonBack>
+        <ButtonPlay className="text-2xl">&#9654;</ButtonPlay>
+        <ButtonNext className="text-3xl ml-12">&rsaquo;</ButtonNext>
+      </CarouselProvider>
     </main>
-    <Footer />
   </div>
 )
 
