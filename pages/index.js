@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Link from 'next/link'
 import SiteHead from '@/components/SiteHead'
@@ -24,6 +25,7 @@ const HomePage = () => (
         keys to control the flashcards.
       </p>
     </main>
+    <Footer />
   </div>
 )
 
