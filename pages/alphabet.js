@@ -1,4 +1,4 @@
-import Layout from '@/components/layout'
+import Layout from '@/components/Layout'
 import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
 import CarouselButtons from '@/components/CarouselButtons'
 import data from '@/data/alphabet.json'
