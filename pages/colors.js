@@ -1,13 +1,7 @@
 import Link from 'next/link'
 import SiteHead from '@/components/SiteHead'
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonPlay,
-  ButtonBack,
-  ButtonNext
-} from 'pure-react-carousel'
+import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
+import CarouselButtons from '@/components/CarouselButtons'
 import data from '@/data/colors.json'
 import config from '@/lib/config'
 
@@ -43,9 +37,7 @@ const FryWords = () => (
             </Slide>
           ))}
         </Slider>
-        <ButtonBack className="text-3xl mr-12">&lsaquo;</ButtonBack>
-        <ButtonPlay className="text-2xl">&#9654;</ButtonPlay>
-        <ButtonNext className="text-3xl ml-12">&rsaquo;</ButtonNext>
+        <CarouselButtons />
       </CarouselProvider>
     </main>
   </div>
