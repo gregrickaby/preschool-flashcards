@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import SiteHead from '@/components/SiteHead'
+import BackButton from '@/components/BackButton'
 import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
 import CarouselButtons from '@/components/CarouselButtons'
 import config from '@/lib/config'
@@ -11,9 +11,7 @@ const FryWords = () => (
       title={`Fry Words - ${config.siteName}`}
       description="Fry Words in flashcard form."
     />
-    <Link href="/">
-      <a className="fixed top-0 left-0 pt-4 pl-4 text-xl">&larr;</a>
-    </Link>
+    <BackButton />
     <main>
       <CarouselProvider
         infinite={true}
