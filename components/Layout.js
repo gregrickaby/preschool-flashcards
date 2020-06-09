@@ -4,7 +4,7 @@ import BackButton from '@/components/BackButton'
 import config from '@/lib/config'
 
 const Layout = ({children}) => (
-  <div className="max-w-xs pt-10 m-auto text-center">
+  <div className="max-w-xs pt-12 m-auto text-center">
     <SiteHead
       title={`Alphabet - ${config.siteName}`}
       description="The alphabet in flashcard form."
