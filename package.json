@@ -12,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "gooey-react": "^1.0.1",
     "next": "latest",
     "pure-react-carousel": "^1.27.1",
     "react": "16.13.1",
