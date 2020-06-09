@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-slider {
-  @apply overflow-hidden;
-}
-
-.slick-prev::before,
-.slick-next::before {
-  @apply hidden;
-}
-
 .flashcard {
   font-size: 200px;
 }
@@ -31,15 +22,4 @@
 
 .flashcard-lowercase {
   font-size: 100px;
-}
-
-@media (min-width: 600px) {
-  .slick-slider {
-    overflow: unset;
-  }
-
-  .slick-prev::before,
-  .slick-next::before {
-    @apply block text-black text-3xl;
-  }
 }
