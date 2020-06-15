@@ -2,107 +2,133 @@
   "items": [
     {
       "letter": "A",
-      "lowercase": "a"
+      "lowercase": "a",
+      "audio_path": "/audio/a.mp3"
     },
     {
       "letter": "B",
-      "lowercase": "b"
+      "lowercase": "b",
+      "audio_path": "/audio/b.mp3"
     },
     {
       "letter": "C",
-      "lowercase": "c"
+      "lowercase": "c",
+      "audio_path": "/audio/c.mp3"
     },
     {
       "letter": "D",
-      "lowercase": "d"
+      "lowercase": "d",
+      "audio_path": "/audio/d.mp3"
     },
     {
       "letter": "E",
-      "lowercase": "e"
+      "lowercase": "e",
+      "audio_path": "/audio/e.mp3"
     },
     {
       "letter": "F",
-      "lowercase": "f"
+      "lowercase": "f",
+      "audio_path": "/audio/f.mp3"
     },
     {
       "letter": "G",
-      "lowercase": "g"
+      "lowercase": "g",
+      "audio_path": "/audio/g.mp3"
     },
     {
       "letter": "H",
-      "lowercase": "h"
+      "lowercase": "h",
+      "audio_path": "/audio/h.mp3"
     },
     {
       "letter": "I",
-      "lowercase": "i"
+      "lowercase": "i",
+      "audio_path": "/audio/i.mp3"
     },
     {
       "letter": "J",
-      "lowercase": "j"
+      "lowercase": "j",
+      "audio_path": "/audio/j.mp3"
     },
     {
       "letter": "K",
-      "lowercase": "k"
+      "lowercase": "k",
+      "audio_path": "/audio/k.mp3"
     },
     {
       "letter": "L",
-      "lowercase": "l"
+      "lowercase": "l",
+      "audio_path": "/audio/l.mp3"
     },
     {
       "letter": "M",
-      "lowercase": "m"
+      "lowercase": "m",
+      "audio_path": "/audio/m.mp3"
     },
     {
       "letter": "N",
-      "lowercase": "n"
+      "lowercase": "n",
+      "audio_path": "/audio/n.mp3"
     },
     {
       "letter": "O",
-      "lowercase": "o"
+      "lowercase": "o",
+      "audio_path": "/audio/o.mp3"
     },
     {
       "letter": "P",
-      "lowercase": "p"
+      "lowercase": "p",
+      "audio_path": "/audio/p.mp3"
     },
     {
       "letter": "Q",
-      "lowercase": "q"
+      "lowercase": "q",
+      "audio_path": "/audio/q.mp3"
     },
     {
       "letter": "R",
-      "lowercase": "r"
+      "lowercase": "r",
+      "audio_path": "/audio/r.mp3"
     },
     {
       "letter": "S",
-      "lowercase": "s"
+      "lowercase": "s",
+      "audio_path": "/audio/s.mp3"
     },
     {
       "letter": "T",
-      "lowercase": "t"
+      "lowercase": "t",
+      "audio_path": "/audio/t.mp3"
     },
     {
       "letter": "U",
-      "lowercase": "u"
+      "lowercase": "u",
+      "audio_path": "/audio/u.mp3"
     },
     {
       "letter": "V",
-      "lowercase": "v"
+      "lowercase": "v",
+      "audio_path": "/audio/v.mp3"
     },
     {
       "letter": "W",
-      "lowercase": "w"
+      "lowercase": "w",
+      "audio_path": "/audio/w.mp3"
     },
     {
       "letter": "X",
-      "lowercase": "x"
+      "lowercase": "x",
+      "audio_path": "/audio/x.mp3"
     },
     {
       "letter": "Y",
-      "lowercase": "y"
+      "lowercase": "y",
+      "audio_path": "/audio/y.mp3"
     },
     {
       "letter": "Z",
-      "lowercase": "z"
+      "lowercase": "z",
+      "audio_path": "/audio/z.mp3"
     }
   ]
 }
