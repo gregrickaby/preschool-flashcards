@@ -2,6 +2,7 @@ import Layout from '@/components/Layout'
 import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
 import CarouselButtons from '@/components/CarouselButtons'
 import data from '@/data/alphabet.json'
+import AudioPlayer from '@/components/AudioPlayer'
 
 const Alphabet = () => (
   <Layout>
@@ -23,6 +24,7 @@ const Alphabet = () => (
                 {item.lowercase}
               </span>
             </p>
+            <AudioPlayer path={item.audio_path} />
           </Slide>
         ))}
       </Slider>
