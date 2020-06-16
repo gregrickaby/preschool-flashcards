@@ -1,13 +1,9 @@
 import PropTypes from 'prop-types'
 
-const AudioPlayer = (props) => (
-  <audio>
-    <source src={props.path} type="audio/mpeg" />
-  </audio>
-)
+const AudioPlayer = (props) => <audio src={props.path} type="audio/mpeg" /> // eslint-disable-line
 
 AudioPlayer.propTypes = {
-  path: PropTypes.object
+  path: PropTypes.string
 }
 
 export default AudioPlayer
