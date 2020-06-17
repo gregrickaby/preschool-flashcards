@@ -27,7 +27,7 @@ This app works offline and is called a "Progressive Web App". You can use Progre
 ### Uninstall
 
 - iOS: long-press on the app icon, tap the "X" to remove
-- Android: tap Apps & Notifications, find the app icons and then tap uninstall
+- Android: tap Apps & Notifications, find the app icon, then tap uninstall
 
 ## Dev Features
 
