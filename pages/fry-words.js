@@ -1,20 +1,11 @@
 import Layout from '@/components/Layout'
 import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
 import CarouselButtons from '@/components/CarouselButtons'
+import randomizeArray from '@/lib/randomize'
 import data from '@/data/frywords.json'
 
 const FryWords = () => {
-  // Randomize an array using Durstenfield Shuffle.
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[array[i], array[j]] = [array[j], array[i]]
-    }
-
-    return array
-  }
-
-  const words = shuffleArray(data.items)
+  const words = randomizeArray(data.items)
 
   return (
     <Layout>
