@@ -33,6 +33,24 @@ const SiteHead = (props) => (
     />
     <link rel="manifest" href="/favicon/site.webmanifest" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content={config.siteUrl} />
+    <meta name="twitter:title" content={props.title} />
+    <meta name="twitter:description" content={props.description} />
+    <meta
+      name="twitter:image"
+      content={`${config.siteUrl}/favicons/android-chrome-192x192.png`}
+    />
+    <meta name="twitter:creator" content={config.author} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={props.title} />
+    <meta property="og:description" content={props.description} />
+    <meta property="og:site_name" content={props.title} />
+    <meta property="og:url" content={config.siteUrl} />
+    <meta
+      property="og:image"
+      content={`${config.siteUrl}/favicons/apple-touch-icon.png`}
+    />
   </Head>
 )
 
