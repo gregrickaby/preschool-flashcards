@@ -3,7 +3,7 @@ import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
 import CarouselButtons from '@/components/CarouselButtons'
 import data from '@/data/shapes.json'
 
-const FryWords = () => (
+const Shapes = () => (
   <Layout>
     <CarouselProvider
       infinite={true}
@@ -36,4 +36,4 @@ const FryWords = () => (
   </Layout>
 )
 
-export default FryWords
+export default Shapes
