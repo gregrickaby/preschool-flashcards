@@ -4,6 +4,7 @@
 
 .flashcard {
   font-size: 200px;
+  touch-action: none;
 }
 
 .flashcard-word {
