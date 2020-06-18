@@ -1,7 +1,21 @@
 {
   "name": "kindergarten-flashcards",
   "version": "0.1.0",
+  "description": "The alphabet, numbers shapes, colors, fry words (and goo!) in flashcard form. Works offline.",
+  "homepage": "https://github.com/gregrickaby/kindergarten-flashcards/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregrickaby/kindergarten-flashcards.git"
+  },
+  "author": "Greg Rickaby <greg@gregrickaby.com>",
+  "bugs": {
+    "url": "https://github.com/gregrickaby/kindergarten-flashcards/issues"
+  },
   "private": true,
+  "license": "GPL-2.0",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
     "build": "next build",
     "clean": "rm -rf .next",
@@ -10,7 +24,7 @@
     "dev": "yarn clean && yarn lint && next dev",
     "develop": "yarn dev",
     "export": "next export",
-    "lint": "./node_modules/.bin/eslint ./ --fix || true",
+    "lint": "eslint ./ --fix || true",
     "start": "next start"
   },
   "dependencies": {
