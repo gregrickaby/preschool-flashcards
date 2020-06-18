@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  touch-action: none;
+}
+
 .flashcard {
   font-size: 200px;
 }
