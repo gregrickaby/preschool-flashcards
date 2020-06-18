@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  touch-action: none;
+  touch-action: pan-y;
 }
 
 .flashcard {
