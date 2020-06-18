@@ -5,10 +5,7 @@ import PropTypes from 'prop-types'
 const SiteHead = (props) => (
   <Head>
     <title>{props.title}</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta httpEquiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content={props.description} />
     <meta name="msapplication-TileColor" content="#fffff" />
