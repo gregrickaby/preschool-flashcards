@@ -6,8 +6,8 @@ const Header = () => (
       className="mx-auto"
       src="/site-logo.png"
       alt="site logo"
-      height="128"
-      width="128"
+      height="288"
+      width="288"
     />
     <h1 className="mt-2 text-3xl font-bold leading-tight">{config.siteName}</h1>
     <p className="text-1xl my-4 italic">{config.siteDescription}</p>
