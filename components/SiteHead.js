@@ -14,7 +14,7 @@ const SiteHead = (props) => (
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/favicon/apple-touch-icon.png"
+      href="/favicon/apple-icon.png"
     />
     <link
       rel="icon"
@@ -36,7 +36,7 @@ const SiteHead = (props) => (
     <meta name="twitter:description" content={props.description} />
     <meta
       name="twitter:image"
-      content={`${config.siteUrl}/favicon/android-chrome-192x192.png`}
+      content={`${config.siteUrl}/favicon/android-icon-192x192.png`}
     />
     <meta name="twitter:creator" content={config.author} />
     <meta property="og:type" content="website" />
@@ -46,7 +46,7 @@ const SiteHead = (props) => (
     <meta property="og:url" content={config.siteUrl} />
     <meta
       property="og:image"
-      content={`${config.siteUrl}/favicon/apple-touch-icon.png`}
+      content={`${config.siteUrl}/favicon/apple-icon.png`}
     />
   </Head>
 )
