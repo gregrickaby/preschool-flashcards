@@ -1,19 +1,18 @@
 {
   "name": "Kindergarten Flashcards",
-  "short_name": "Kindergarten Flashcards",
+  "short_name": "Flashcards",
+  "start_url": ".",
   "description": "The alphabet, numbers shapes, colors, fry (sight) words, and goo in flashcard form.",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "categories": ["education"],
+  "lang": "en-US",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "display": "standalone",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/favicon/android-icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/favicon/android-icon-512x512.png",
-      "sizes": "512x512",
       "type": "image/png"
     },
     {
