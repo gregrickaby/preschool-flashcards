@@ -5672,10 +5672,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-pure-react-carousel@^1.27.3:
-  version "1.27.3"
-  resolved "https://registry.yarnpkg.com/pure-react-carousel/-/pure-react-carousel-1.27.3.tgz#9bcf6b31768c61f35addb02ac697058b1cc7f438"
-  integrity sha512-zMpJPe4Cziykj5mwuasSUCg+6A7b/cV7ODdtcSka+sFvPBXH6QED3vfifiDExZgjlOEdXN7B0gRHsqqnCU8rUA==
+pure-react-carousel@^1.27.4:
+  version "1.27.4"
+  resolved "https://registry.yarnpkg.com/pure-react-carousel/-/pure-react-carousel-1.27.4.tgz#870ae5c6f8325b7fb8cc2c8b322c08a98fb3cbb9"
+  integrity sha512-o4msT2SULQHbGd8xDDpkKPK91cQwdRGcIEe7Y3vtLusbB2sve1yvq8l57Q+oTyMgZnjQu9vUNayOFjJI89BdBA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     deep-freeze "0.0.1"
