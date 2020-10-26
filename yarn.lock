@@ -3735,10 +3735,10 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-gooey-react@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gooey-react/-/gooey-react-1.0.1.tgz#5142bc88d01ea8559c0747ee1a1c5ebb30439c30"
-  integrity sha512-WmaZIkb3vJtlhUMyGX1uMuFliYSPd+6540VX2I6OJdQvyj/xe4LiKGaVVlFYXkLm4WxuaZOcQk9autH4PxMcaA==
+gooey-react@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gooey-react/-/gooey-react-1.1.0.tgz#471e6364dccc7ac094ccf3c66c71a07e22c4251b"
+  integrity sha512-cWv+U0l5AcvqfRhgAsgYwzhP2vGSUEiGOZJIWOPup2cGedaRMm4ioQarIWw+YDeNWZEZBOLTgoqW5i7/+QaEaw==
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.4"
