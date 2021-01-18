@@ -31,7 +31,7 @@
   "dependencies": {
     "gooey-react": "^1.1.0",
     "next": "10.0.5",
-    "next-pwa": "^5.0.3",
+    "next-pwa": "^5.0.4",
     "pure-react-carousel": "^1.27.6",
     "react": "17.0.1",
     "react-dom": "17.0.1"
