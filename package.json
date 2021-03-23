@@ -33,8 +33,8 @@
     "next": "10.0.9",
     "next-pwa": "^5.0.6",
     "pure-react-carousel": "^1.27.6",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
