@@ -2,7 +2,7 @@
   "name": "kindergarten-flashcards",
   "version": "0.1.0",
   "description": "The alphabet, numbers shapes, colors, fry words (and goo!) in flashcard form. Works offline.",
-  "homepage": "https://kindergarten-flashcards.now.sh/",
+  "homepage": "https://kindergarten-flashcards.vercel.app/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gregrickaby/kindergarten-flashcards.git"
@@ -14,15 +14,12 @@
   "private": true,
   "license": "GPL-2.0",
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "scripts": {
     "build": "next build",
     "clean": "rm -rf .next",
-    "deploy prod": "now --prod",
-    "deploy staging": "now",
-    "dev": "yarn clean && yarn lint && next dev",
-    "develop": "yarn dev",
+    "dev": "npm clean && next dev",
     "export": "next export",
     "lint": "eslint ./ --fix || true",
     "start": "next start",
@@ -30,28 +27,29 @@
   },
   "dependencies": {
     "gooey-react": "^1.1.0",
-    "next": "10.1.3",
-    "next-pwa": "^5.2.14",
+    "next": "10.2.0",
+    "next-pwa": "^5.2.15",
     "pure-react-carousel": "^1.27.6",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@arkweid/lefthook": "^0.7.3",
     "autoprefixer": "^10.2.5",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "next-sitemap": "^1.6.25",
-    "postcss": "^8.2.10",
+    "postcss": "^8.2.13",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
-    "stylelint-config-standard": "^21.0.0",
-    "tailwindcss": "^2.1.1"
+    "stylelint-config-standard": "^22.0.0",
+    "tailwindcss": "^2.1.2"
   }
 }
