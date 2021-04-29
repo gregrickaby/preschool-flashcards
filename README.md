@@ -2,7 +2,7 @@
 
 The alphabet, numbers shapes, colors, fry (sight) words (and goo!) in flashcard form. Works offline.
 
-👉🏻 https://kindergarten-flashcards.now.sh/
+👉🏻 <https://kindergarten-flashcards.vercel.app/>
 
 ![app screenshot](https://dl.dropbox.com/s/rrqe1sss5ywacay/kapture%202020-06-17%20at%2016.39.28.gif?dl=0)
 
@@ -16,14 +16,14 @@ This website works offline and is called a "Progressive Web App". You can use Pr
 
 ### iOS - Safari Only
 
-1. [Open the website](https://kindergarten-flashcards.now.sh/) on your device
+1. [Open the website](https://kindergarten-flashcards.vercel.app/) on your device
 2. Tap the Share icon
 3. Tap "Add to Home Screen"
 4. Tap "Add" again to install
 
 ### Android - Chrome
 
-1. [Open the website](https://kindergarten-flashcards.now.sh/) on your device
+1. [Open the website](https://kindergarten-flashcards.vercel.app/) on your device
 2. Tap the Share icon
 3. Tap "Add to Home Screen"
 4. Follow the onscreen instructions to install
@@ -38,7 +38,7 @@ This website works offline and is called a "Progressive Web App". You can use Pr
 ## Dev Features
 
 - Next.js
-- Tailwind CSS
+- TailwindCSS
 - Linting and typechecking
 - Progressive Web App
 - Perfect scores on Lighthouse!
@@ -56,11 +56,11 @@ git clone git@github.com:gregrickaby/kindergarten-flashcards.git
 2. Install dependencies:
 
 ```bash
-yarn install
+npm install --legacy-peer-deps
 ```
 
 3. Start the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
