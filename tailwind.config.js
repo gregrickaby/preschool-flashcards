@@ -1,15 +1,23 @@
 module.exports = {
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  mode: 'jit',
+  purge: {
+    content: [
+      './components/**/*.{js,ts,jsx,tsx,md,mdx}',
+      './pages/**/*.{js,ts,jsx,tsx,md,mdx}',
+      './data/**/**/*.{js,ts,jsx,tsx,md,mdx}'
+    ]
+  },
   darkMode: 'media',
   theme: {
     extend: {
       container: {
         center: true,
-        margin: 'auto'
+        padding: {
+          DEFAULT: '2rem'
+        }
       }
     }
   },
-  variants: {},
   plugins: [],
   future: {}
 }

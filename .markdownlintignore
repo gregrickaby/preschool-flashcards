@@ -3,3 +3,4 @@
 dist/
 node_modules/
 public/
+PULL_REQUEST_TEMPLATE.md

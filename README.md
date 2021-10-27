@@ -47,20 +47,16 @@ This website works offline and is called a "Progressive Web App". You can use Pr
 
 ## Development
 
-1. Clone the repo:
+Set up a local development environment with Create Next App:
 
 ```bash
-git clone git@github.com:gregrickaby/kindergarten-flashcards.git
+npx create-next-app kindergarten-flashcards https://github.com/gregrickaby/kindergarten-flashcards.git
 ```
 
-2. Install dependencies:
-
-```bash
-npm install --legacy-peer-deps
-```
-
-3. Start the development server:
+Start the development server:
 
 ```bash
 npm run dev
 ```
+
+---
