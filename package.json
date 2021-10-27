@@ -19,7 +19,7 @@
   "scripts": {
     "build": "next build",
     "clean": "rimraf .next",
-    "dev": "npm run clean && next run dev",
+    "dev": "npm run clean && next dev",
     "export": "next export",
     "format": "npx prettier '**/*.{js,jsx,ts,tsx,md,mdx,html,css,scss,json,yml}' --write || true",
     "lint": "npm run format && npm run lint:js && npm run lint:css && npm run lint:md",
