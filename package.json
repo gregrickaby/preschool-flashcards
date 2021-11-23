@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "gooey-react": "^1.1.0",
-    "next": "12.0.3",
-    "next-pwa": "^5.4.0",
-    "pure-react-carousel": "^1.27.6",
+    "next": "12.0.4",
+    "next-pwa": "^5.4.1",
+    "pure-react-carousel": "^1.27.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -38,20 +38,20 @@
     "@arkweid/lefthook": "^0.7.7",
     "autoprefixer": "^10.4.0",
     "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.3",
+    "eslint-config-next": "^12.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "markdownlint": "^0.24.0",
-    "markdownlint-cli": "^0.29.0",
+    "markdownlint-cli": "^0.30.0",
     "next-sitemap": "^1.6.203",
     "postcss": "^8.3.11",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^7.0.1",
     "prettier": "^2.4.1",
     "prop-types": "^15.7.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.0.1",
-    "stylelint-config-standard": "^23.0.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0",
     "tailwindcss": "^2.2.19"
   }
 }
