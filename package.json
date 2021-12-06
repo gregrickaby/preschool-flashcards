@@ -29,7 +29,7 @@
   "dependencies": {
     "gooey-react": "^1.1.0",
     "next": "12.0.4",
-    "next-pwa": "^5.4.1",
+    "next-pwa": "^5.4.4",
     "pure-react-carousel": "^1.27.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
