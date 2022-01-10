@@ -28,30 +28,30 @@
   },
   "dependencies": {
     "gooey-react": "^1.1.0",
-    "next": "12.0.4",
-    "next-pwa": "^5.4.1",
+    "next": "12.0.7",
+    "next-pwa": "^5.4.4",
     "pure-react-carousel": "^1.27.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
-    "autoprefixer": "^10.4.0",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.4",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "^12.0.7",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "markdownlint": "^0.24.0",
+    "markdownlint": "^0.25.0",
     "markdownlint-cli": "^0.30.0",
-    "next-sitemap": "^1.6.203",
-    "postcss": "^8.4.4",
+    "next-sitemap": "^1.8.4",
+    "postcss": "^8.4.5",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^7.0.1",
-    "prettier": "^2.5.0",
-    "prop-types": "^15.7.2",
+    "postcss-preset-env": "^7.2.0",
+    "prettier": "^2.5.1",
+    "prop-types": "^15.8.1",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.1.0",
+    "stylelint": "^14.2.0",
     "stylelint-config-standard": "^24.0.0",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.0.12"
   }
 }
