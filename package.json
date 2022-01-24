@@ -43,7 +43,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "markdownlint": "^0.25.0",
     "markdownlint-cli": "^0.30.0",
-    "next-sitemap": "^1.8.4",
+    "next-sitemap": "^2.0.2",
     "postcss": "^8.4.5",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^7.2.0",
