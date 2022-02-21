@@ -39,7 +39,7 @@
     "autoprefixer": "^10.4.2",
     "eslint": "^8.9.0",
     "eslint-config-next": "^12.1.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-prettier": "^4.0.0",
     "markdownlint": "^0.25.1",
     "markdownlint-cli": "^0.31.1",
