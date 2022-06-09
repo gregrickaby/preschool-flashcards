@@ -10,39 +10,24 @@ jobs:
   lint:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-
-            ${{ runner.OS }}-
-
-      - name: Install NPM 7
-        run: npm i -g npm@latest
+          node-version: 'lts/*'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm i
+        run: npm i --legacy-peer-deps
 
       - name: Lint scripts
-        run: npx eslint '**/*.{js,ts,jsx,tsx}' --config=.eslintrc.js
+        run: npm run lint:js
 
       - name: Lint styles
-        run: npx stylelint '**/*.{css,scss}' --config=.stylelintrc.js
+        run: npm run lint:css
 
       - name: Lint markdown
-        run: npx markdownlint '**/*.md' --config=.markdownlint.json
+        run: npm run lint:md
