@@ -32,7 +32,7 @@
     "next-pwa": "^5.5.4",
     "pure-react-carousel": "^1.28.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
