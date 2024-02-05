@@ -2,7 +2,7 @@
 
 The alphabet, numbers shapes, colors, fry (sight) words (and goo!) in flashcard form. Works offline.
 
-👉🏻 <https://kindergarten-flashcards.vercel.app/>
+👉🏻 <https://preschool-flashcards.vercel.app/>
 
 ![app screenshot](https://dl.dropbox.com/s/rrqe1sss5ywacay/kapture%202020-06-17%20at%2016.39.28.gif?dl=0)
 
@@ -50,7 +50,7 @@ This website works offline and is called a "Progressive Web App". You can use Pr
 Set up a local development environment with Create Next App:
 
 ```bash
-npx create-next-app kindergarten-flashcards https://github.com/gregrickaby/kindergarten-flashcards.git
+npx create-next-app preschool-flashcards https://github.com/gregrickaby/preschool-flashcards.git
 ```
 
 Start the development server:
