@@ -1,4 +1,4 @@
-# Kindergarten Flashcards
+# Preschool Flashcards
 
 The alphabet, numbers shapes, colors, fry (sight) words (and goo!) in flashcard form. Works offline.
 
