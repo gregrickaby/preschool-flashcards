@@ -12,11 +12,9 @@ const HomePage = () => (
       <div className="grid sm:grid-cols-3 gap-6">
         {config.menu.map((item, index) => (
           <Link href={item.href} key={index}>
-            <a>
-              <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
-                {item.label}
-              </div>
-            </a>
+            <div className="border rounded-lg py-4 text-xl text-center hover:bg-gray-300">
+              {item.label}
+            </div>
           </Link>
         ))}
       </div>
