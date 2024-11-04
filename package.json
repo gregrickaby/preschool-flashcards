@@ -46,7 +46,7 @@
     "next-sitemap": "^4.2.3",
     "postcss": "^8.4.47",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^10.0.8",
+    "postcss-preset-env": "^10.0.9",
     "prettier": "^3.3.3",
     "prop-types": "^15.8.1",
     "rimraf": "^6.0.1",
