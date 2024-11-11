@@ -44,7 +44,7 @@
     "markdownlint": "^0.36.1",
     "markdownlint-cli": "^0.42.0",
     "next-sitemap": "^4.2.3",
-    "postcss": "^8.4.47",
+    "postcss": "^8.4.48",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^10.0.8",
     "prettier": "^3.3.3",
