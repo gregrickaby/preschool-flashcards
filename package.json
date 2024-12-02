@@ -47,7 +47,7 @@
     "postcss": "^8.4.49",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^10.1.1",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "prop-types": "^15.8.1",
     "rimraf": "^6.0.1",
     "stylelint": "^16.10.0",
