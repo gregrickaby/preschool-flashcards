@@ -5,3 +5,5 @@ updates:
     schedule:
       interval: 'weekly'
       day: 'monday'
+    automerge: true
+    automerge-type: 'squash'
