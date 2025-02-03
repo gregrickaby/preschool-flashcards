@@ -1,21 +1,41 @@
-module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    es6: true
+import path from 'node:path'
+import {fileURLToPath} from 'node:url'
+import js from '@eslint/js'
+import {FlatCompat} from '@eslint/eslintrc'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all
+})
+
+const config = [
+  {
+    ignores: [
+      '.*.js',
+      '**/*.min.js',
+      '**/.*cache/',
+      '**/.next/',
+      '**/build/',
+      '**/coverage/',
+      '**/node_modules/',
+      '**/public/'
+    ]
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:jsx-a11y/recommended',
-    'next',
-    'next/core-web-vitals',
-    'prettier'
-  ],
-  plugins: ['prettier'],
-  rules: {
-    '@next/next/no-img-element': 'off',
-    'jsx-a11y/anchor-is-valid': 'off',
-    'no-console': ['error', {allow: ['warn', 'error']}],
-    'prettier/prettier': 'error'
+  ...compat.extends('next/core-web-vitals', 'prettier'),
+  {
+    rules: {
+      '@next/next/no-img-element': 'off',
+      'no-console': [
+        'error',
+        {
+          allow: ['warn', 'error', 'info']
+        }
+      ]
+    }
   }
-}
+]
+
+export default config
