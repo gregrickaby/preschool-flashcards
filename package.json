@@ -44,7 +44,7 @@
     "markdownlint": "^0.37.4",
     "markdownlint-cli": "^0.44.0",
     "next-sitemap": "^4.2.3",
-    "postcss": "^8.5.1",
+    "postcss": "^8.5.2",
     "prettier": "^3.5.0",
     "prop-types": "^15.8.1",
     "rimraf": "^6.0.1",
