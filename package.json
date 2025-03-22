@@ -27,17 +27,17 @@
   },
   "dependencies": {
     "gooey-react": "^1.1.0",
-    "next": "15.2.2",
+    "next": "15.2.3",
     "next-pwa": "^5.6.0",
     "pure-react-carousel": "^1.32.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.14",
+    "@tailwindcss/postcss": "^4.0.15",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9.22.0",
-    "eslint-config-next": "^15.2.2",
+    "eslint": "^9.23.0",
+    "eslint-config-next": "^15.2.3",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
     "lefthook": "^1.11.3",
@@ -48,6 +48,6 @@
     "prettier": "^3.5.3",
     "prop-types": "^15.8.1",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^4.0.14"
+    "tailwindcss": "^4.0.15"
   }
 }
