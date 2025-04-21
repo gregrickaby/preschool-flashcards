@@ -48,6 +48,6 @@
     "prettier": "^3.5.3",
     "prop-types": "^15.8.1",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^4.1.1"
+    "tailwindcss": "^4.1.4"
   }
 }
