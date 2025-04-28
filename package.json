@@ -36,11 +36,11 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.4",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9.25.0",
+    "eslint": "^9.25.1",
     "eslint-config-next": "^15.3.1",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.2.6",
-    "lefthook": "^1.11.11",
+    "lefthook": "^1.11.12",
     "markdownlint": "^0.37.4",
     "markdownlint-cli": "^0.44.0",
     "next-sitemap": "^4.2.3",
