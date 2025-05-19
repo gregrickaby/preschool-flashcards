@@ -40,7 +40,7 @@
     "eslint-config-next": "^15.3.2",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.0",
-    "lefthook": "^1.11.12",
+    "lefthook": "^1.11.13",
     "markdownlint": "^0.38.0",
     "markdownlint-cli": "^0.44.0",
     "next-sitemap": "^4.2.3",
