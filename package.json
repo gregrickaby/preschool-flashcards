@@ -39,7 +39,7 @@
     "eslint": "^9.27.0",
     "eslint-config-next": "^15.3.2",
     "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-prettier": "^5.4.1",
     "lefthook": "^1.11.13",
     "markdownlint": "^0.38.0",
     "markdownlint-cli": "^0.45.0",
