@@ -2,7 +2,7 @@
 
 The alphabet, numbers shapes, colors, fry (sight) words (and goo!) in flashcard form. Works offline.
 
-👉🏻 <https://preschool-flashcards.vercel.app/>
+👉🏻 <https://flashcards.gregrickaby.com>
 
 ![app screenshot](https://dl.dropbox.com/s/rrqe1sss5ywacay/kapture%202020-06-17%20at%2016.39.28.gif?dl=0)
 
