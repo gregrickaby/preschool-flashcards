@@ -27,27 +27,27 @@
   },
   "dependencies": {
     "gooey-react": "^1.1.0",
-    "next": "15.5.2",
+    "next": "15.5.6",
     "next-pwa": "^5.6.0",
     "pure-react-carousel": "^1.32.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/postcss": "^4.1.15",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9.31.0",
-    "eslint-config-next": "^15.3.5",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^15.5.6",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
-    "lefthook": "^1.12.2",
-    "markdownlint": "^0.38.0",
+    "lefthook": "^2.0.0",
+    "markdownlint": "^0.39.0",
     "markdownlint-cli": "^0.45.0",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.5.6",
     "prettier": "^3.6.2",
     "prop-types": "^15.8.1",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.15"
   }
 }
