@@ -16,14 +16,14 @@ This website works offline and is called a "Progressive Web App". You can use Pr
 
 ### iOS - Safari Only
 
-1. [Open the website](https://kindergarten-flashcards.vercel.app/) on your device
+1. [Open the website](https://flashcards.gregrickaby.com/) on your device
 2. Tap the Share icon
 3. Tap "Add to Home Screen"
 4. Tap "Add" again to install
 
 ### Android - Chrome
 
-1. [Open the website](https://kindergarten-flashcards.vercel.app/) on your device
+1. [Open the website](https://flashcards.gregrickaby.com/) on your device
 2. Tap the Share icon
 3. Tap "Add to Home Screen"
 4. Follow the onscreen instructions to install
