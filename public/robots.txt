@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://kindergarten-flashcards.vercel.app/
+Host: https://flashcards.gregrickaby.com/
 
 # Sitemaps
-Sitemap: https://kindergarten-flashcards.vercel.app/sitemap.xml
+Sitemap: https://flashcards.gregrickaby.com/sitemap.xml

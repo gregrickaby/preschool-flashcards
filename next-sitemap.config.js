@@ -1,6 +1,6 @@
 // @see https://github.com/iamvishnusankar/next-sitemap
 module.exports = {
-  siteUrl: 'https://kindergarten-flashcards.vercel.app/',
+  siteUrl: 'https://flashcards.gregrickaby.com/',
   generateRobotsTxt: true,
   changefreq: 'weekly'
 }
