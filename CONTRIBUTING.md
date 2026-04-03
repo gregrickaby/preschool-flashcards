@@ -6,7 +6,7 @@ Kindergarten Flashcards is maintained by [Greg Rickaby](https://gregrickaby.com/
 
 ## Submitting issues
 
-Before submitting your issue, make sure it has not been discussed earlier. You can search for existing tickets [here](https://github.com/gregrickaby/kindergarten-flashcards/issues).
+Before submitting your issue, make sure it has not been discussed earlier. You can [search for existing tickets](https://github.com/gregrickaby/kindergarten-flashcards/issues).
 
 ## Contributing code
 

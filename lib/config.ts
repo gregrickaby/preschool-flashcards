@@ -1,4 +1,23 @@
-const config = {
+interface MenuItem {
+  label: string
+  href: string
+}
+
+interface Config {
+  siteName: string
+  siteDescription: string
+  siteUrl: string
+  author: string
+  menu: MenuItem[]
+  social: {
+    github: {
+      label: string
+      href: string
+    }
+  }
+}
+
+const config: Config = {
   siteName: 'Preschool Flashcards',
   siteDescription:
     'The alphabet, numbers shapes, colors, and fry (sight) words in flashcard form.',

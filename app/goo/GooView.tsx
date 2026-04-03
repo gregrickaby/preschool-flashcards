@@ -1,8 +1,9 @@
-import Layout from '@/components/Layout'
+'use client'
+
 import Goo from 'gooey-react'
 
-const Gooey = () => (
-  <Layout>
+export default function GooView() {
+  return (
     <Goo intensity="strong">
       <svg
         role="img"
@@ -49,7 +50,5 @@ const Gooey = () => (
         </g>
       </svg>
     </Goo>
-  </Layout>
-)
-
-export default Gooey
+  )
+}

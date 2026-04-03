@@ -1,10 +1,11 @@
-import Layout from '@/components/Layout'
+'use client'
+
 import {CarouselProvider, Slider, Slide} from 'pure-react-carousel'
 import CarouselButtons from '@/components/CarouselButtons'
 import data from '@/data/colors.json'
 
-const Colors = () => (
-  <Layout>
+export default function ColorsCarousel() {
+  return (
     <CarouselProvider
       infinite={true}
       interval={3000}
@@ -29,7 +30,5 @@ const Colors = () => (
       </Slider>
       <CarouselButtons />
     </CarouselProvider>
-  </Layout>
-)
-
-export default Colors
+  )
+}

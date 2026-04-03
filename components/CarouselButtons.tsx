@@ -1,3 +1,5 @@
+'use client'
+
 import {ButtonPlay, ButtonBack, ButtonNext} from 'pure-react-carousel'
 
 const CarouselButtons = () => (
